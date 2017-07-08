@@ -1,0 +1,12 @@
+*{margin:0;padding: 0}
+body{font-family: "华文行楷",serif}
+header{width:100%;height: 4em;line-height:65px;background-color:#219196;border-bottom:#2ab4ba solid 1px;box-shadow:2px 2px 2px #ccc;position: fixed;top:0;left: 0;color:white;z-index:1;}
+header p{display: inline-block;font-family: "Segoe Script",serif;font-size: 2.5em;position: absolute;left:1.5em;}
+header span{position:absolute;font-size: 1.7em;right: 3.5em;}
+article{width: 100%;margin-top:6em;font-family: "微软雅黑","华文新魏",serif}
+section{position:fixed;bottom:15%;left:40%;}
+section input[type="text"]{width: 22em;height: 2.5em;font-size: 0.875em;color:#219196;border:none;box-shadow: 0 0 5px #009180;display: block;}
+section input[type="submit"]{width: 10em;height: 2.5em;font-size: 0.9em;margin-top:1em;background: white;font-family: "微软雅黑","华文新魏",serif;font-weight: bold;letter-spacing: 1.25em;padding-left:1em;cursor: pointer;}
+section input+input {color: #e15328;border:1px solid #e15328;}
+section input:last-child{color:#9cb0ae;border:1px solid #bcd2cf;margin-left: 1em;}
+footer{width: 100%;height: 2.5em;line-height:2.5em;background-color: #219196;border-top:#2ab4ba;box-shadow: 2px 2px 2px #ccc;position: fixed;bottom:0;left: 0;color:white;font-family:'YouYuan-Bbc00fb69818a00';text-align: center;}
